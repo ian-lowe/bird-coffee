@@ -146,6 +146,7 @@ h1 {
   height: 5px;
   border-bottom: 1px solid black;
   margin: 6px 0;
+  transition: transform 0.5s;
 }
 
 /* Rotate first bar */
