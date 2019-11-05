@@ -194,7 +194,7 @@ h6 {
 
 .link-wrapper a:hover,
 .link-wrapper-sm a:hover {
-  background-color: rgba(0, 0, 0, 0.651);
+  background-color: rgba(71, 71, 71, 0.651);
   color: white;
   transition: background-color 0.3s, color 0.3s;
 }
