@@ -9,8 +9,12 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: black;
+}
+
+.nav a,
+.nav a:hover {
+  text-decoration: none;
 }
 
 .section1 {
@@ -87,7 +91,7 @@ h6 {
   transition: font-size 0.5s, left 0.5s, top 0.5s;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 970px) {
   h1 {
     font-size: 40px;
     transition: font-size 0.5s, left 0.5s;
@@ -156,7 +160,7 @@ h6 {
   transition: transform 0.5s;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 970px) {
   .hamburger-menu {
     display: none;
   }
@@ -200,6 +204,8 @@ h6 {
 }
 
 .link-wrapper a {
+  text-align: center;
+  width: 65px;
   margin-right: 10px;
   border: 1px solid black;
   border-radius: 5%;
@@ -207,19 +213,21 @@ h6 {
 }
 
 .link-wrapper-sm a {
+  text-align: center;
+  width: 65px;
   border: 1px solid black;
   border-radius: 5%;
   padding: 3px;
   margin-bottom: 10px;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 970px) {
   .link-wrapper-sm {
     display: none;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 970px) {
   .link-wrapper {
     display: none;
   }
