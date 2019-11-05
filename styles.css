@@ -84,7 +84,7 @@ h1 {
   transition: font-size 0.5s, left 0.5s;
 }
 
-h6 {
+.los-angeles {
   font-family: "Montserrat", sans-serif;
   position: fixed;
   top: 65px;
@@ -93,13 +93,17 @@ h6 {
   font-size: 12px;
   transition: font-size 0.5s, left 0.5s, top 0.5s;
 }
+.la {
+  font-family: "Montserrat", sans-serif;
+  display: none;
+}
 
 @media (max-width: 970px) {
   h1 {
     font-size: 40px;
     transition: font-size 0.5s, left 0.5s;
   }
-  h6 {
+  .los-angeles {
     font-size: 10px;
     top: 45px;
     left: 23px;
@@ -113,13 +117,15 @@ h6 {
     left: 5px;
     transition: font-size 0.5s, left 0.5s;
   }
-  h6 {
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-size: 8px;
-    top: 55px;
-    left: 12px;
-    transition: font-size 0.5s, left 0.5s;
+  .los-angeles {
+    display: none;
+  }
+  .la {
+    display: block;
+    position: fixed;
+    top: 30px;
+    left: 28px;
+    letter-spacing: 2px;
   }
 }
 
